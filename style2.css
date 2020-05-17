@@ -410,14 +410,14 @@ div.section-c > div > p {
         background-position: center;
         background-size: cover;
         height: inherit;
-        margin-top: 5px;
+        margin-top: 8px;
        
     }
     div.picture{
         background-image: url("shecode-assets/hafsah.png");
         background-position: center;
-        background-size: 10em;
+        background-size: 8em;
         background-repeat: no-repeat;
-        margin-top: 5px;
+        margin: 8px;
     }
   }

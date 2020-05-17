@@ -375,13 +375,14 @@ footer a{
         margin-left: 21em;
     }
     .map img{
-        width:22em ;
+        width:18em ;
         margin: 2em;
     }
     .endofpage{
+        margin: 0;
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
     }
 }
 
