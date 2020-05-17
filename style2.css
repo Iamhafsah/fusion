@@ -371,7 +371,7 @@ div.section-c > div > p {
         margin-top: 50px;
     }
     .wrapper{
-        margin-top: 2em;
+        margin-top: 3em;
     }
     .wrapper > h4 {
         font-size: 25px;
@@ -413,7 +413,7 @@ div.section-c > div > p {
         background-position: center;
         background-size: cover;
         height: inherit;
-        margin-top: 4px;
+        margin-top: -3px;
        
     }
     div.picture{
