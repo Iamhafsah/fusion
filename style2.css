@@ -146,6 +146,12 @@ span > .btn2:hover {
     margin-bottom: 20px;
     padding: 15px;
 }
+#services .our-service{
+    font-size: 35px;
+}
+.services h4{
+    font-size: 13px;
+}
 .wrapper > h4 {
     display: flex;
     align-self: center;
@@ -172,11 +178,17 @@ span > .btn2:hover {
     height: 2px;
     border: none;
 }
+#services p{
+    font-size:15px ;
+}
 .features{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 40px;
     margin-top: 50px;
+}
+.features p{
+    font-size: 15px;
 }
 div >.section-b {
     width: 300px;
@@ -293,7 +305,9 @@ div.section-c > div > p {
         font-size: 20px;
     }
     nav{
-        padding: 5px 10px !important;
+        padding: 5px 5px !important;
+        display: flex;
+        flex-direction: column;
     }
     nav li {
         font-size: small;
@@ -306,7 +320,7 @@ div.section-c > div > p {
     }
     /* Section 1 */
     #home{
-        padding-left:10px ;
+        padding-left:20px ;
         width: fit-content;
     }
     .home{
@@ -315,6 +329,10 @@ div.section-c > div > p {
     }
     .home>h4{
         font-size: 20px;
+    }
+    .home span{
+        display: flex;
+        flex-direction: column;
     }
     span > .btn {
         margin: 10px 10px 0px 0px;
@@ -341,6 +359,9 @@ div.section-c > div > p {
     .services {
         justify-content: center;
     }
+    #services .our-service{
+        font-size: 25px;
+    }
     .features{
         display: flex;
         grid-template-columns: 1fr 1fr 1fr;
@@ -348,6 +369,10 @@ div.section-c > div > p {
         flex-wrap: wrap;
         justify-content: center;
         margin-top: 50px;
+    }
+    .wrapper > h4 {
+        font-size: 25px;
+        margin-top: 2em;
     }
     div.bgimg{
         background-image: url("./img3.png");
@@ -365,6 +390,9 @@ div.section-c > div > p {
         justify-content: center;
         margin-top: 30px;
     }
+    #team > h4{
+        font-size: 25px;
+    }
     div >.section-c{
         width: auto;
         height: 164px;
@@ -375,6 +403,7 @@ div.section-c > div > p {
         font-size: small;
         align-content: center;
         grid-template-columns: 1fr 2fr;
+        padding: 10px;
     }
     div.pic{
         background-image: url("./dammy.jpg");
@@ -383,5 +412,12 @@ div.section-c > div > p {
         height: inherit;
         margin-top: 5px;
        
+    }
+    div.picture{
+        background-image: url("shecode-assets/hafsah.png");
+        background-position: center;
+        background-size: 10em;
+        background-repeat: no-repeat;
+        margin-top: 5px;
     }
   }
