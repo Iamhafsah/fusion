@@ -370,6 +370,9 @@ div.section-c > div > p {
         justify-content: center;
         margin-top: 50px;
     }
+    .wrapper{
+        margin-top: 2em;
+    }
     .wrapper > h4 {
         font-size: 25px;
         margin-top: 2em;
